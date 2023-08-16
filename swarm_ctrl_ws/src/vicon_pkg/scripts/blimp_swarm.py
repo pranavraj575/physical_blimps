@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from pyBlimp.blimp import BlimpManager
-from pyBlimp.utils import read_config
+from src.pyBlimp.blimp import BlimpManager
+from src.pyBlimp.utils import read_config
 from physical_blimps.swarm_ctrl_ws.src.vicon_pkg.scripts.vicon import Vicon
 from physical_blimps.CONFIG import *
 import numpy as np
